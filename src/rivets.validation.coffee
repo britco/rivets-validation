@@ -323,7 +323,8 @@ rivets.validation =
 		    	$(@).text('')
 
 	validateEl: ->
-		[model, key] = SuperGlue.getLastModelAndKey(@model, @keypath)
+		model = @model
+		key = @keypath
 
 		self = @
 		@state = 'processing'
@@ -387,7 +388,8 @@ rivets.validation =
 
 	bind: (el) ->
 		# Silently validate on first bind
-		[model, key] = SuperGlue.getLastModelAndKey(@model, @keypath)
+		model = @model
+		key = @keypath
 
 		@id = _.uniqueId('rivets_validation_')
 
