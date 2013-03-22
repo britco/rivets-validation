@@ -4,6 +4,7 @@ rivets-validation
 Example
 
 In the model:
+    test
     module.exports = class Address extends Model
         validation:
             street_line1:
