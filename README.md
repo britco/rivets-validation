@@ -1,7 +1,7 @@
 rivets-validation
 =================
 
-_Example_
+Example
 
 In the model:
     module.exports = class Address extends Model
