@@ -4,7 +4,7 @@ rivets-validation
 Example
 
 In the model:
-    test
+    
     module.exports = class Address extends Model
         validation:
             street_line1:
@@ -27,4 +27,5 @@ In the model:
 
 
 In the template:
+    
     <input type="text" data-value="billing_address.name" value="">
